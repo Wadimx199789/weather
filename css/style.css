@@ -9,7 +9,9 @@ body {
     max-width: 100%;
     height: auto;
   }
-  
+  /* .container{
+      background-color: rebeccapurple;
+  } */
   #app {
     position: fixed;
     left: 50%;
@@ -140,7 +142,8 @@ body {
     background: url(./img/figure2.svg) no-repeat center/cover;
   }
   
-  .top {
+  .top {   
+     background: #342d82;
     position: relative;
     padding: 18px;
   }
@@ -246,4 +249,7 @@ body {
     flex-wrap: wrap;
     row-gap: 20px;
     justify-content: space-between;
+  }
+  .is-day{
+      background-color: aqua;
   }
